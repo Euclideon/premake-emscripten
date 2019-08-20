@@ -10,6 +10,8 @@
 	local m = p.modules.emscripten
 	m._VERSION = "0.0.1"
 
+	include ( "_preload.lua" )
+
 	if os.locate("premake-vstool/vstool.lua") or os.locate("vstool/vstool.lua") then
 		require "vstool"
 	end
