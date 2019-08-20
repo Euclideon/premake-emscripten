@@ -90,7 +90,7 @@
 
 
 
-	filter { "configurations:Emscripten" }
+	filter { "platforms:Emscripten" }
 		system "emscripten"
 		toolset "emcc"
 
